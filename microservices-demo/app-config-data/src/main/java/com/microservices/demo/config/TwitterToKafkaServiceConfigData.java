@@ -13,7 +13,7 @@ import java.util.List;
 @Configuration //to make this class a springbean
 @ConfigurationProperties(prefix="twitter-to-kafka-service")
 public class TwitterToKafkaServiceConfigData {
-    private List<String> twitterKeywords;
+    private List<String> twitterKeywords; //make sure this matches to name in application.properties in camelcase format
     private String welcomeMessage;
     private boolean enableMockTweets;
     private Long mockSleepMs;
