@@ -1,0 +1,442 @@
+2024-07-15 19:14:10 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 21.0.3 with PID 19821 (/Users/saikumarpadamati/Desktop/Event-driven-microservices/microservices-demo/twitter-to-kafka-service/target/classes started by saikumarpadamati in /Users/saikumarpadamati/Desktop/Event-driven-microservices)
+2024-07-15 19:14:10 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-15 19:14:10 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.409 seconds (process running for 0.767)
+2024-07-15 19:14:10 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - TwitterToKafkaServiceApplication started.....
+2024-07-15 19:14:10 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [-java -Microservice -Spring -Kafka -ElastcSearch]
+2024-07-15 19:14:10 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello-microservices
+2024-07-15 19:14:10 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 19:14:10 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords [-java -Microservice -Spring -Kafka -ElastcSearch]
+2024-07-15 19:14:10 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 19:14:10 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 250 milliseconds
+2024-07-15 19:14:10 [Twitter Stream consumer /  [1][Waiting for 250 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 19:14:11 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 19:14:11 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 500 milliseconds
+2024-07-15 19:14:11 [Twitter Stream consumer /  [1][Waiting for 500 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 19:14:11 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 19:14:11 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 1000 milliseconds
+2024-07-15 19:14:12 [Twitter Stream consumer /  [1][Waiting for 1000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 19:14:12 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 19:14:12 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 2000 milliseconds
+2024-07-15 19:14:14 [Twitter Stream consumer /  [1][Waiting for 2000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 19:14:14 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 19:14:14 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 4000 milliseconds
+2024-07-15 19:14:18 [Twitter Stream consumer /  [1][Waiting for 4000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 19:14:18 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 19:14:18 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 8000 milliseconds
+2024-07-15 19:14:24 [SpringApplicationShutdownHook] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Shutting down twitter stream
+2024-07-15 22:14:11 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 21.0.3 with PID 22733 (/Users/saikumarpadamati/Desktop/Event-driven-microservices/microservices-demo/twitter-to-kafka-service/target/classes started by saikumarpadamati in /Users/saikumarpadamati/Desktop/Event-driven-microservices)
+2024-07-15 22:14:11 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-15 22:14:11 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.441 seconds (process running for 0.778)
+2024-07-15 22:14:11 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - TwitterToKafkaServiceApplication started.....
+2024-07-15 22:14:11 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [-java -Microservice -Spring -Kafka -ElastcSearch]
+2024-07-15 22:14:11 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello-microservices
+2024-07-15 22:14:11 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:14:11 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords [-java -Microservice -Spring -Kafka -ElastcSearch]
+2024-07-15 22:14:11 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:14:11 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 250 milliseconds
+2024-07-15 22:14:11 [Twitter Stream consumer /  [1][Waiting for 250 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:14:12 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:14:12 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 500 milliseconds
+2024-07-15 22:14:12 [Twitter Stream consumer /  [1][Waiting for 500 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:14:12 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:14:12 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 1000 milliseconds
+2024-07-15 22:14:13 [Twitter Stream consumer /  [1][Waiting for 1000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:14:13 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:14:13 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 2000 milliseconds
+2024-07-15 22:14:15 [Twitter Stream consumer /  [1][Waiting for 2000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:14:15 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:14:15 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 4000 milliseconds
+2024-07-15 22:14:19 [Twitter Stream consumer /  [1][Waiting for 4000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:14:20 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:14:20 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 8000 milliseconds
+2024-07-15 22:14:28 [Twitter Stream consumer /  [1][Waiting for 8000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:14:28 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:14:28 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:14:30 [SpringApplicationShutdownHook] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Shutting down twitter stream
+2024-07-15 22:46:17 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 21.0.3 with PID 23516 (/Users/saikumarpadamati/Desktop/Event-driven-microservices/microservices-demo/twitter-to-kafka-service/target/classes started by saikumarpadamati in /Users/saikumarpadamati/Desktop/Event-driven-microservices)
+2024-07-15 22:46:17 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-15 22:46:17 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' available: expected single matching bean but found 2: mockKafkaStreamRunner,twitterKafkaStreamRunner
+2024-07-15 22:46:17 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-15 22:46:17 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication required a single bean, but 2 were found:
+	- mockKafkaStreamRunner: defined in file [/Users/saikumarpadamati/Desktop/Event-driven-microservices/microservices-demo/twitter-to-kafka-service/target/classes/com/microservices/demo/twitter/to/kafka/service/runner/impl/MockKafkaStreamRunner.class]
+	- twitterKafkaStreamRunner: defined in file [/Users/saikumarpadamati/Desktop/Event-driven-microservices/microservices-demo/twitter-to-kafka-service/target/classes/com/microservices/demo/twitter/to/kafka/service/runner/impl/TwitterKafkaStreamRunner.class]
+
+This may be due to missing parameter name information
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+Ensure that your compiler is configured to use the '-parameters' flag.
+You may need to update both your build tool settings as well as your IDE.
+(See https://github.com/spring-projects/spring-framework/wiki/Upgrading-to-Spring-Framework-6.x#parameter-name-retention)
+
+
+2024-07-15 22:47:32 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 21.0.3 with PID 23556 (/Users/saikumarpadamati/Desktop/Event-driven-microservices/microservices-demo/twitter-to-kafka-service/target/classes started by saikumarpadamati in /Users/saikumarpadamati/Desktop/Event-driven-microservices)
+2024-07-15 22:47:32 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-15 22:47:32 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' available: expected single matching bean but found 2: mockKafkaStreamRunner,twitterKafkaStreamRunner
+2024-07-15 22:47:32 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-15 22:47:32 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication required a single bean, but 2 were found:
+	- mockKafkaStreamRunner: defined in file [/Users/saikumarpadamati/Desktop/Event-driven-microservices/microservices-demo/twitter-to-kafka-service/target/classes/com/microservices/demo/twitter/to/kafka/service/runner/impl/MockKafkaStreamRunner.class]
+	- twitterKafkaStreamRunner: defined in file [/Users/saikumarpadamati/Desktop/Event-driven-microservices/microservices-demo/twitter-to-kafka-service/target/classes/com/microservices/demo/twitter/to/kafka/service/runner/impl/TwitterKafkaStreamRunner.class]
+
+This may be due to missing parameter name information
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+Ensure that your compiler is configured to use the '-parameters' flag.
+You may need to update both your build tool settings as well as your IDE.
+(See https://github.com/spring-projects/spring-framework/wiki/Upgrading-to-Spring-Framework-6.x#parameter-name-retention)
+
+
+2024-07-15 22:48:33 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 21.0.3 with PID 23582 (/Users/saikumarpadamati/Desktop/Event-driven-microservices/microservices-demo/twitter-to-kafka-service/target/classes started by saikumarpadamati in /Users/saikumarpadamati/Desktop/Event-driven-microservices)
+2024-07-15 22:48:33 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-15 22:48:34 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.439 seconds (process running for 0.725)
+2024-07-15 22:48:34 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - TwitterToKafkaServiceApplication started.....
+2024-07-15 22:48:34 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [-java -Microservice -Spring -Kafka -ElastcSearch]
+2024-07-15 22:48:34 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello-microservices
+2024-07-15 22:48:34 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-15 22:48:34 [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because the return value of "com.microservices.demo.config.TwitterToKafkaServiceConfigData.getMockSleepMs()" is null
+	at com.microservices.demo.twitter.to.kafka.service.runner.impl.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:68)
+	at com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:40)
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:790)
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:83)
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60)
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:88)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:798)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:789)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:774)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:341)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication.main(TwitterToKafkaServiceApplication.java:32)
+2024-07-15 22:49:39 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 21.0.3 with PID 23615 (/Users/saikumarpadamati/Desktop/Event-driven-microservices/microservices-demo/twitter-to-kafka-service/target/classes started by saikumarpadamati in /Users/saikumarpadamati/Desktop/Event-driven-microservices)
+2024-07-15 22:49:39 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-15 22:49:39 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.521 seconds (process running for 0.793)
+2024-07-15 22:49:39 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - TwitterToKafkaServiceApplication started.....
+2024-07-15 22:49:39 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [-java -Microservice -Spring -Kafka -ElastcSearch]
+2024-07-15 22:49:39 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello-microservices
+2024-07-15 22:49:39 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:49:39 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords [-java -Microservice -Spring -Kafka -ElastcSearch]
+2024-07-15 22:49:39 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:49:39 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 250 milliseconds
+2024-07-15 22:49:40 [Twitter Stream consumer /  [1][Waiting for 250 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:49:40 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:49:40 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 500 milliseconds
+2024-07-15 22:49:40 [Twitter Stream consumer /  [1][Waiting for 500 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:49:40 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:49:40 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 1000 milliseconds
+2024-07-15 22:49:41 [Twitter Stream consumer /  [1][Waiting for 1000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:49:41 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:49:41 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 2000 milliseconds
+2024-07-15 22:49:43 [Twitter Stream consumer /  [1][Waiting for 2000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:49:44 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:49:44 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 4000 milliseconds
+2024-07-15 22:49:48 [Twitter Stream consumer /  [1][Waiting for 4000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:49:48 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:49:48 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 8000 milliseconds
+2024-07-15 22:49:56 [Twitter Stream consumer /  [1][Waiting for 8000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:49:56 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:49:56 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:50:12 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:50:12 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:50:12 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:50:28 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:50:28 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:50:28 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:50:44 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:50:44 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:50:44 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:51:00 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:51:00 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:51:00 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:51:16 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:51:16 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:51:16 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:51:32 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:51:33 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:51:33 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:51:49 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:51:49 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:51:49 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:52:05 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:52:05 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:52:05 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:52:21 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:52:21 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:52:21 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:52:37 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:52:37 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:52:37 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:52:53 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:52:53 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:52:53 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:53:09 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:53:09 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:53:09 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:53:25 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:53:26 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:53:26 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:53:42 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:53:42 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:53:42 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:53:58 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:53:58 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:53:58 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:54:14 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:54:14 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:54:14 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:54:30 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:54:30 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:54:30 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:54:46 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:54:46 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:54:46 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:55:02 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:55:02 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:55:02 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:55:18 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:55:18 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:55:18 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:55:34 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:55:35 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:55:35 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:55:51 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:55:51 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:55:51 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:56:07 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:56:07 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:56:07 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:56:23 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:56:23 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:56:23 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:56:39 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:56:39 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:56:39 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:56:55 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:56:55 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:56:55 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:57:11 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:57:11 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:57:11 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:57:27 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:57:27 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:57:27 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:57:43 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:57:44 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:57:44 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:58:00 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:58:00 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:58:00 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:58:16 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:58:16 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:58:16 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:58:32 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:58:32 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:58:32 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:58:48 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:58:48 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:58:48 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:59:04 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:59:04 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:59:04 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:59:20 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:59:20 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:59:20 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:59:36 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:59:36 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:59:36 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 22:59:52 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 22:59:53 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 22:59:53 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 23:00:09 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 23:00:09 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 23:00:09 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 23:00:25 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 23:00:25 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 23:00:25 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 23:00:41 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 23:00:41 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 23:00:41 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 23:00:57 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 23:00:57 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 23:00:57 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 23:01:13 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 23:01:13 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 23:01:13 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 23:01:29 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 23:01:29 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-07-15 23:01:29 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2024-07-15 23:01:45 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-07-15 23:01:46 [SpringApplicationShutdownHook] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Shutting down twitter stream
+2024-07-15 23:01:48 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 21.0.3 with PID 23933 (/Users/saikumarpadamati/Desktop/Event-driven-microservices/microservices-demo/twitter-to-kafka-service/target/classes started by saikumarpadamati in /Users/saikumarpadamati/Desktop/Event-driven-microservices)
+2024-07-15 23:01:48 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-15 23:01:48 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.571 seconds (process running for 0.923)
+2024-07-15 23:01:48 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - TwitterToKafkaServiceApplication started.....
+2024-07-15 23:01:48 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [-java -Microservice -Spring -Kafka -ElastcSearch]
+2024-07-15 23:01:48 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello-microservices
+2024-07-15 23:01:48 [main] INFO  c.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [-java -Microservice -Spring -Kafka -ElastcSearch]
+2024-07-15 23:01:48 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text sunt ullamco in consectetur minim ex id nulla -java -Microservice -Spring -Kafka -ElastcSearch dolor dolor aliquip eiusmod culpa commodo aute
+2024-07-15 23:01:58 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text aliqua. ut laboris velit quis sit veniam, -java -Microservice -Spring -Kafka -ElastcSearch Excepteur dolor ex veniam, magna sunt
+2024-07-15 23:02:08 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text proident, veniam, consequat. irure ullamco -java -Microservice -Spring -Kafka -ElastcSearch dolor consectetur cillum
+2024-07-15 23:02:18 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text labore anim amet, esse dolor -java -Microservice -Spring -Kafka -ElastcSearch aute et fugiat
+2024-07-15 23:02:28 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text esse nisi laboris magna in ullamco sed -java -Microservice -Spring -Kafka -ElastcSearch minim aliquip non Ut voluptate ipsum
+2024-07-15 23:02:38 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text culpa in sunt labore ex -java -Microservice -Spring -Kafka -ElastcSearch elit, pariatur. mollit
+2024-07-15 23:02:48 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text tempor ullamco amet, eu anim Lorem irure -java -Microservice -Spring -Kafka -ElastcSearch Duis amet, sit sit veniam, mollit
+2024-07-15 23:02:58 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ut nostrud in nulla Lorem -java -Microservice -Spring -Kafka -ElastcSearch in qui nisi
+2024-07-15 23:03:08 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text voluptate et magna aute Lorem -java -Microservice -Spring -Kafka -ElastcSearch nostrud quis nulla
+2024-07-15 23:03:18 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text amet, nulla Lorem incididunt -java -Microservice -Spring -Kafka -ElastcSearch nulla sed
+2024-07-15 23:03:28 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text tempor ut dolore adipiscing ut reprehenderit voluptate -java -Microservice -Spring -Kafka -ElastcSearch Excepteur officia sint eu amet,
+2024-07-15 23:03:38 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text et dolor in -java -Microservice -Spring -Kafka -ElastcSearch eu amet,
+2024-07-15 23:03:48 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text anim veniam, ad ut deserunt ad -java -Microservice -Spring -Kafka -ElastcSearch culpa Excepteur nostrud velit
+2024-07-15 23:03:58 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem Duis Excepteur anim deserunt -java -Microservice -Spring -Kafka -ElastcSearch aliqua. sunt amet,
+2024-07-15 23:04:08 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text nulla proident, nostrud -java -Microservice -Spring -Kafka -ElastcSearch ut nostrud
+2024-07-15 23:04:18 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ad laborum. reprehenderit esse consequat. eiusmod -java -Microservice -Spring -Kafka -ElastcSearch aliqua. sit Lorem anim veniam,
+2024-07-15 23:04:28 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text cupidatat enim consequat. quis qui qui nulla voluptate -java -Microservice -Spring -Kafka -ElastcSearch occaecat eiusmod enim ut eiusmod in
+2024-07-15 23:04:38 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text anim laboris adipiscing Lorem labore id -java -Microservice -Spring -Kafka -ElastcSearch labore esse Duis ut
+2024-07-15 23:04:48 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ipsum sit officia anim sint consectetur cupidatat -java -Microservice -Spring -Kafka -ElastcSearch et cupidatat Duis dolore exercitation
+2024-07-15 23:04:58 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text cupidatat aliqua. cupidatat reprehenderit ut nulla dolore -java -Microservice -Spring -Kafka -ElastcSearch aute sit minim quis pariatur.
+2024-07-15 23:05:08 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text qui proident, minim consectetur id velit Lorem -java -Microservice -Spring -Kafka -ElastcSearch irure nisi velit adipiscing nisi anim
+2024-07-15 23:05:18 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text magna amet, aliquip Ut quis deserunt pariatur. -java -Microservice -Spring -Kafka -ElastcSearch sed Excepteur officia enim aliquip esse
+2024-07-15 23:05:28 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Duis Duis exercitation labore commodo in veniam, in -java -Microservice -Spring -Kafka -ElastcSearch in laboris commodo ad veniam, cupidatat nostrud
+2024-07-15 23:05:38 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ea irure ut sint aliquip Ut -java -Microservice -Spring -Kafka -ElastcSearch non in sed Lorem
+2024-07-15 23:05:48 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text qui nisi in dolore est commodo est sed -java -Microservice -Spring -Kafka -ElastcSearch esse qui cupidatat enim in nulla consequat.
+2024-07-15 23:05:58 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text in consectetur cupidatat dolore -java -Microservice -Spring -Kafka -ElastcSearch qui eu
+2024-07-15 23:06:08 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text fugiat nisi laboris qui -java -Microservice -Spring -Kafka -ElastcSearch labore amet, ut
+2024-07-15 23:06:18 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text eu veniam, id dolore eiusmod velit -java -Microservice -Spring -Kafka -ElastcSearch adipiscing exercitation ea cupidatat proident,
+2024-07-15 23:06:28 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text commodo deserunt labore -java -Microservice -Spring -Kafka -ElastcSearch sit officia
+2024-07-15 23:06:38 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text dolor ex cupidatat occaecat pariatur. sed fugiat -java -Microservice -Spring -Kafka -ElastcSearch incididunt ad in exercitation quis
+2024-07-15 23:06:48 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text sint Duis aute exercitation -java -Microservice -Spring -Kafka -ElastcSearch cillum velit
+2024-07-15 23:06:58 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text reprehenderit occaecat minim nisi -java -Microservice -Spring -Kafka -ElastcSearch proident, nisi
+2024-07-15 23:07:08 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text nostrud exercitation Duis veniam, dolore aute -java -Microservice -Spring -Kafka -ElastcSearch voluptate dolor tempor exercitation
+2024-07-15 23:07:18 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text nulla commodo sit nisi -java -Microservice -Spring -Kafka -ElastcSearch ad ea Lorem
+2024-07-15 23:07:28 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text occaecat ut sint -java -Microservice -Spring -Kafka -ElastcSearch Ut Ut
+2024-07-15 23:07:38 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text consectetur nisi qui reprehenderit velit mollit dolor -java -Microservice -Spring -Kafka -ElastcSearch adipiscing sint in non minim
+2024-07-15 23:07:48 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text adipiscing sint veniam, voluptate adipiscing -java -Microservice -Spring -Kafka -ElastcSearch eiusmod anim consectetur cillum
+2024-07-15 23:07:58 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text eu occaecat nulla pariatur. veniam, id dolore sunt -java -Microservice -Spring -Kafka -ElastcSearch reprehenderit officia sint eiusmod aliquip incididunt
+2024-07-15 23:08:08 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Ut quis officia commodo -java -Microservice -Spring -Kafka -ElastcSearch labore mollit pariatur.
+2024-07-15 23:08:18 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text aliqua. dolor officia cillum cupidatat ex -java -Microservice -Spring -Kafka -ElastcSearch ipsum occaecat est ut non
+2024-07-15 23:08:28 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text et aliquip Ut fugiat enim -java -Microservice -Spring -Kafka -ElastcSearch velit labore eiusmod
+2024-07-15 23:08:38 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text nisi ad Lorem magna ex eiusmod consectetur -java -Microservice -Spring -Kafka -ElastcSearch labore ad ad nostrud in officia
+2024-07-15 23:08:48 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text dolor ad ea aliqua. reprehenderit Duis culpa do -java -Microservice -Spring -Kafka -ElastcSearch culpa magna amet, ut aliqua. irure
+2024-07-15 23:08:58 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text elit, adipiscing minim eiusmod et est enim -java -Microservice -Spring -Kafka -ElastcSearch amet, amet, ullamco ipsum cupidatat
+2024-07-15 23:09:08 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text aute ea dolor ad -java -Microservice -Spring -Kafka -ElastcSearch do qui
+2024-07-15 23:09:18 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text exercitation aliquip veniam, anim -java -Microservice -Spring -Kafka -ElastcSearch sunt adipiscing
+2024-07-15 23:09:28 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text tempor reprehenderit est deserunt ullamco -java -Microservice -Spring -Kafka -ElastcSearch anim sit aliqua. ullamco
+2024-07-15 23:09:38 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text dolore laborum. pariatur. dolore enim nostrud nisi velit -java -Microservice -Spring -Kafka -ElastcSearch cillum consequat. est minim Ut irure voluptate
+2024-07-15 23:09:48 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ipsum consequat. magna deserunt veniam, esse nostrud -java -Microservice -Spring -Kafka -ElastcSearch amet, commodo ex do dolor
+2024-07-15 23:09:58 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text tempor cupidatat consequat. amet, deserunt Duis ex -java -Microservice -Spring -Kafka -ElastcSearch velit ullamco deserunt ut fugiat
+2024-07-15 23:10:08 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text dolor magna in reprehenderit labore eu occaecat -java -Microservice -Spring -Kafka -ElastcSearch consequat. pariatur. adipiscing in nostrud ex
+2024-07-15 23:10:18 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ut consectetur fugiat esse -java -Microservice -Spring -Kafka -ElastcSearch enim officia
+2024-07-15 23:10:28 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text esse laborum. exercitation aliqua. consectetur adipiscing -java -Microservice -Spring -Kafka -ElastcSearch sint laborum. ea dolore ad
+2024-07-15 23:10:38 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text et aliqua. nostrud irure -java -Microservice -Spring -Kafka -ElastcSearch dolor deserunt
+2024-07-15 23:10:49 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text aute dolore cupidatat elit, quis nostrud sunt sit -java -Microservice -Spring -Kafka -ElastcSearch sunt ipsum ut cupidatat minim ut
+2024-07-15 23:10:59 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text dolor reprehenderit minim sit nulla qui aliquip -java -Microservice -Spring -Kafka -ElastcSearch id Lorem anim adipiscing anim qui
+2024-07-15 23:11:09 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text sed occaecat elit, irure qui veniam, eu dolor -java -Microservice -Spring -Kafka -ElastcSearch culpa dolore dolor in elit, aliquip
+2024-07-15 23:11:19 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text amet, dolor anim sint voluptate aliqua. quis -java -Microservice -Spring -Kafka -ElastcSearch dolor voluptate Lorem quis velit proident,
+2024-07-15 23:11:29 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text incididunt quis dolore est -java -Microservice -Spring -Kafka -ElastcSearch reprehenderit ea sunt
+2024-07-15 23:11:39 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text in enim veniam, dolor qui laboris pariatur. minim -java -Microservice -Spring -Kafka -ElastcSearch sed dolore commodo sed est in velit
+2024-07-15 23:11:49 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text voluptate nostrud in esse quis adipiscing ipsum -java -Microservice -Spring -Kafka -ElastcSearch in minim Lorem incididunt nostrud labore
+2024-07-15 23:11:59 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text veniam, aliqua. occaecat dolor ut dolore qui do -java -Microservice -Spring -Kafka -ElastcSearch nostrud dolore aute esse fugiat pariatur.
+2024-07-15 23:12:09 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text cupidatat deserunt officia ad sint Lorem laborum. incididunt -java -Microservice -Spring -Kafka -ElastcSearch sint ut qui dolor adipiscing velit
+2024-07-15 23:12:19 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text anim occaecat sint consectetur -java -Microservice -Spring -Kafka -ElastcSearch adipiscing dolor
+2024-07-15 23:12:29 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text nisi ea sint nulla enim labore est id -java -Microservice -Spring -Kafka -ElastcSearch Ut eu tempor labore officia culpa
+2024-07-15 23:12:39 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text sed amet, adipiscing ipsum aute tempor -java -Microservice -Spring -Kafka -ElastcSearch occaecat do dolor esse qui
+2024-07-15 23:12:49 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text quis Excepteur amet, quis aliqua. -java -Microservice -Spring -Kafka -ElastcSearch dolore ut cillum cupidatat
+2024-07-15 23:12:59 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text eu dolor aliquip qui sit ipsum est -java -Microservice -Spring -Kafka -ElastcSearch consequat. est ipsum in enim
+2024-07-15 23:13:09 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text commodo pariatur. culpa tempor reprehenderit qui ipsum -java -Microservice -Spring -Kafka -ElastcSearch aute Duis elit, magna Lorem
+2024-07-15 23:13:19 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text minim elit, adipiscing occaecat irure -java -Microservice -Spring -Kafka -ElastcSearch amet, fugiat consequat. eiusmod
+2024-07-15 23:13:29 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text sint aute proident, officia -java -Microservice -Spring -Kafka -ElastcSearch aute in pariatur.
+2024-07-15 23:13:39 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text proident, consequat. Duis ut -java -Microservice -Spring -Kafka -ElastcSearch deserunt officia non
+2024-07-15 23:13:49 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text voluptate ea Ut proident, ullamco magna -java -Microservice -Spring -Kafka -ElastcSearch magna est labore nostrud
+2024-07-15 23:13:59 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ipsum sit irure -java -Microservice -Spring -Kafka -ElastcSearch occaecat officia
+2024-07-15 23:14:09 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text quis velit est est aliqua. cillum ipsum veniam, -java -Microservice -Spring -Kafka -ElastcSearch Lorem exercitation in esse qui nisi qui
+2024-07-15 23:14:19 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text eu in veniam, voluptate -java -Microservice -Spring -Kafka -ElastcSearch est elit,
+2024-07-15 23:14:29 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ullamco est mollit exercitation velit ad -java -Microservice -Spring -Kafka -ElastcSearch esse aliqua. id pariatur. dolore
+2024-07-15 23:14:39 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ut ullamco cillum est proident, fugiat cupidatat -java -Microservice -Spring -Kafka -ElastcSearch Ut laborum. commodo aliquip laborum.
+2024-07-15 23:14:49 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text consequat. labore incididunt adipiscing in -java -Microservice -Spring -Kafka -ElastcSearch nulla quis in
+2024-07-15 23:14:59 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text occaecat sint in proident, culpa nulla -java -Microservice -Spring -Kafka -ElastcSearch id sunt aliquip eu sit
+2024-07-15 23:15:09 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text dolore quis sunt do ad aute ut -java -Microservice -Spring -Kafka -ElastcSearch nulla dolor ad enim ut
+2024-07-15 23:15:19 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text fugiat dolor anim -java -Microservice -Spring -Kafka -ElastcSearch laboris elit,
+2024-07-15 23:15:29 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text sed Excepteur amet, mollit mollit adipiscing fugiat -java -Microservice -Spring -Kafka -ElastcSearch minim laborum. amet, deserunt sit
+2024-07-15 23:15:39 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ut ex eiusmod in magna deserunt tempor eu -java -Microservice -Spring -Kafka -ElastcSearch voluptate labore adipiscing mollit cillum non non
+2024-07-15 23:15:49 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text sint aute Lorem reprehenderit dolore -java -Microservice -Spring -Kafka -ElastcSearch do sunt fugiat esse
+2024-07-15 23:15:59 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text incididunt Duis irure pariatur. occaecat ullamco voluptate dolor -java -Microservice -Spring -Kafka -ElastcSearch laboris velit aute in dolor irure
+2024-07-15 23:16:09 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text est Duis magna enim consectetur -java -Microservice -Spring -Kafka -ElastcSearch minim labore in eiusmod
+2024-07-15 23:16:19 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Duis ut eu Ut incididunt eu elit, -java -Microservice -Spring -Kafka -ElastcSearch qui sint ex consequat. ullamco ut
+2024-07-15 23:16:29 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Ut magna et -java -Microservice -Spring -Kafka -ElastcSearch ad pariatur.
+2024-07-15 23:16:39 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text pariatur. consequat. ut culpa quis cillum -java -Microservice -Spring -Kafka -ElastcSearch commodo esse labore consequat.
+2024-07-15 23:16:49 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text dolore occaecat deserunt ea -java -Microservice -Spring -Kafka -ElastcSearch proident, dolore minim
+2024-07-15 23:16:59 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ipsum exercitation deserunt dolore -java -Microservice -Spring -Kafka -ElastcSearch dolor ipsum
+2024-07-15 23:17:09 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text dolore irure sint ad sunt exercitation magna -java -Microservice -Spring -Kafka -ElastcSearch minim sed adipiscing amet, nisi sunt
+2024-07-15 23:17:19 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text nulla culpa magna dolor commodo velit in dolor -java -Microservice -Spring -Kafka -ElastcSearch non adipiscing laboris in mollit consectetur deserunt
+2024-07-15 23:17:29 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ipsum esse eiusmod magna -java -Microservice -Spring -Kafka -ElastcSearch labore consectetur
+2024-07-15 23:17:39 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text adipiscing magna mollit esse ut est anim irure -java -Microservice -Spring -Kafka -ElastcSearch culpa nostrud consequat. magna exercitation nulla
+2024-07-15 23:17:49 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Duis veniam, deserunt laborum. -java -Microservice -Spring -Kafka -ElastcSearch commodo qui esse
+2024-07-15 23:17:59 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Ut veniam, id ex ut ipsum ad -java -Microservice -Spring -Kafka -ElastcSearch Ut adipiscing cillum ex minim
+2024-07-15 23:18:09 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text cillum Ut minim incididunt sit consequat. -java -Microservice -Spring -Kafka -ElastcSearch elit, ea anim deserunt dolore
+2024-07-15 23:18:19 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ullamco amet, qui aliqua. voluptate -java -Microservice -Spring -Kafka -ElastcSearch voluptate fugiat pariatur.
+2024-07-15 23:18:29 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text esse in veniam, commodo Ut occaecat occaecat veniam, -java -Microservice -Spring -Kafka -ElastcSearch in fugiat ut do exercitation est
+2024-07-15 23:18:39 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text voluptate cupidatat labore in -java -Microservice -Spring -Kafka -ElastcSearch labore velit aliqua.
+2024-07-15 23:18:49 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text et elit, eu -java -Microservice -Spring -Kafka -ElastcSearch commodo in
+2024-07-15 23:18:59 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text velit reprehenderit ipsum dolor laborum. -java -Microservice -Spring -Kafka -ElastcSearch dolor amet, quis
+2024-07-15 23:19:09 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text id laboris ut deserunt -java -Microservice -Spring -Kafka -ElastcSearch ipsum Ut ea
+2024-07-15 23:19:19 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Excepteur labore dolore Ut -java -Microservice -Spring -Kafka -ElastcSearch consectetur magna
+2024-07-15 23:19:29 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text veniam, ex reprehenderit nostrud voluptate ea laborum. -java -Microservice -Spring -Kafka -ElastcSearch ad mollit qui adipiscing Ut
+2024-07-15 23:19:39 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text sunt ut dolor velit minim amet, nostrud qui -java -Microservice -Spring -Kafka -ElastcSearch in laboris occaecat est qui mollit ullamco
+2024-07-15 23:19:49 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text laborum. adipiscing aute esse nisi cupidatat aliquip reprehenderit -java -Microservice -Spring -Kafka -ElastcSearch do est elit, minim tempor proident,
+2024-07-15 23:19:59 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Excepteur quis aute sit reprehenderit et -java -Microservice -Spring -Kafka -ElastcSearch dolor est eu enim occaecat
+2024-07-15 23:20:09 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text nostrud enim sit nisi quis minim occaecat -java -Microservice -Spring -Kafka -ElastcSearch non quis ut velit aliqua.
+2024-07-15 23:20:19 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text aliquip ad velit incididunt veniam, -java -Microservice -Spring -Kafka -ElastcSearch incididunt aute tempor
+2024-07-15 23:36:39 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text et nisi in -java -Microservice -Spring -Kafka -ElastcSearch ipsum aliqua.
+2024-07-15 23:36:49 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text adipiscing ipsum aute officia aliqua. Ut ad adipiscing -java -Microservice -Spring -Kafka -ElastcSearch minim minim aliqua. quis Excepteur velit
+2024-07-15 23:36:59 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text voluptate culpa ut -java -Microservice -Spring -Kafka -ElastcSearch pariatur. ut
+2024-07-15 23:37:09 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text esse aute sunt incididunt sit -java -Microservice -Spring -Kafka -ElastcSearch nostrud sint ut elit,
+2024-07-15 23:37:19 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text sit magna ullamco deserunt -java -Microservice -Spring -Kafka -ElastcSearch laboris enim aliquip
+2024-07-15 23:37:29 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text do culpa nulla -java -Microservice -Spring -Kafka -ElastcSearch adipiscing ad
+2024-07-15 23:37:39 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ullamco non enim ea ut labore dolore ipsum -java -Microservice -Spring -Kafka -ElastcSearch ex in amet, mollit ad dolore
+2024-07-15 23:37:49 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text et elit, exercitation velit -java -Microservice -Spring -Kafka -ElastcSearch ut aliquip
+2024-07-15 23:37:59 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text mollit reprehenderit aute do ut consectetur dolore aliquip -java -Microservice -Spring -Kafka -ElastcSearch eu sunt in qui exercitation enim
+2024-07-15 23:38:09 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text qui ullamco ad ullamco adipiscing dolor -java -Microservice -Spring -Kafka -ElastcSearch culpa deserunt ex nostrud
+2024-07-15 23:38:19 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text dolor eu in Duis deserunt labore ex -java -Microservice -Spring -Kafka -ElastcSearch tempor aute labore reprehenderit eiusmod
+2024-07-15 23:38:29 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text non nisi adipiscing laborum. -java -Microservice -Spring -Kafka -ElastcSearch enim in
+2024-07-15 23:38:39 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text nostrud labore eu nulla ut anim -java -Microservice -Spring -Kafka -ElastcSearch consequat. nostrud Lorem Lorem dolore
+2024-07-15 23:38:49 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text enim aute reprehenderit in dolore -java -Microservice -Spring -Kafka -ElastcSearch commodo non Duis commodo
+2024-07-15 23:54:02 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text culpa magna qui ex consequat. -java -Microservice -Spring -Kafka -ElastcSearch pariatur. reprehenderit ut incididunt
+2024-07-15 23:54:12 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text mollit esse deserunt dolor -java -Microservice -Spring -Kafka -ElastcSearch est eu
+2024-07-15 23:54:22 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text eiusmod nostrud do nostrud -java -Microservice -Spring -Kafka -ElastcSearch aliquip Lorem sed
+2024-07-15 23:54:32 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text minim esse dolor commodo in -java -Microservice -Spring -Kafka -ElastcSearch nostrud ad ex

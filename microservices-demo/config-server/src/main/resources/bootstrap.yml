@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/bucky70/spring-cloud-cpnfig-server-repository.git
+          default-label: main
+          username: bucky70
+          password: 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
+          clone-on-start: true
+    fail-fast: true
