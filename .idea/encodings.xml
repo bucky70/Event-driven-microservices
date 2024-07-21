@@ -4,10 +4,13 @@
     <file url="file://$PROJECT_DIR$/microservices-demo/app-config-data/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservices-demo/app-config-data/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservices-demo/common-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices-demo/common-util/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservices-demo/config-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices-demo/elastic-query-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservices-demo/elstic/elastic-config/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservices-demo/elstic/elastic-index-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservices-demo/elstic/elastic-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices-demo/elstic/elastic-query-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservices-demo/elstic/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservices-demo/kafka-to-elastic-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservices-demo/kafka/kafka-admin/src/main/java" charset="UTF-8" />

@@ -28,6 +28,9 @@
 		<module>elstic/elastic-config</module>
 		<module>elstic/elastic-index-client</module>
 		<module>elstic/elastic-model</module>
+        <module>elstic/elastic-query-client</module>
+        <module>common-util</module>
+		<module>elastic-query-service</module>
 	</modules>
     <packaging>pom</packaging>
 	<properties>
@@ -48,6 +51,7 @@
 		<spring-boot-starter-security.version>3.3.1</spring-boot-starter-security.version>
 		<elasticsearch-rest-high-level-client.version>7.17.22</elasticsearch-rest-high-level-client.version>
 		<elasticsearch.version>7.17.22</elasticsearch.version>
+		<spring-doc-openapi-ui.version>1.7.0</spring-doc-openapi-ui.version>
 	</properties>
 
 	<repositories>
@@ -60,6 +64,26 @@
 	<dependencyManagement>
 
 		<dependencies>
+			<dependency>
+				<groupId>org.springdoc</groupId>
+				<artifactId>springdoc-openapi-ui</artifactId>
+				<version>${spring-doc-openapi-ui.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.microservices.demo</groupId>
+				<artifactId>elastic-query-service</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.microservices.demo</groupId>
+				<artifactId>elastic-query-client</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.microservices.demo</groupId>
+				<artifactId>common-util</artifactId>
+				<version>${project.version}</version>
+			</dependency>
 			<dependency>
 				<groupId>org.elasticsearch.client</groupId>
 				<artifactId>elasticsearch-rest-high-level-client</artifactId>
