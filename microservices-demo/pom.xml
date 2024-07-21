@@ -31,6 +31,8 @@
         <module>elstic/elastic-query-client</module>
         <module>common-util</module>
 		<module>elastic-query-service</module>
+        <module>elastic-query-webclient</module>
+		<module>discovery-service</module>
 	</modules>
     <packaging>pom</packaging>
 	<properties>
@@ -52,6 +54,7 @@
 		<elasticsearch-rest-high-level-client.version>7.17.22</elasticsearch-rest-high-level-client.version>
 		<elasticsearch.version>7.17.22</elasticsearch.version>
 		<spring-doc-openapi-ui.version>1.7.0</spring-doc-openapi-ui.version>
+		<thymeleaf-extras-springsecurity5.version>3.0.4</thymeleaf-extras-springsecurity5.version>
 	</properties>
 
 	<repositories>
@@ -64,6 +67,11 @@
 	<dependencyManagement>
 
 		<dependencies>
+			<dependency>
+				<groupId>org.thymeleaf.extras</groupId>
+				<artifactId>thymeleaf-extras-springsecurity5</artifactId>
+				<version>thymeleaf-extras-springsecurity5.version</version>
+			</dependency>
 			<dependency>
 				<groupId>org.springdoc</groupId>
 				<artifactId>springdoc-openapi-ui</artifactId>

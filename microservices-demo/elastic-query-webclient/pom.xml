@@ -7,10 +7,10 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>elastic-query-service</artifactId>
+    <artifactId>elastic-query-webclient</artifactId>
     <packaging>jar</packaging>
 
-    <name>elastic-query-service</name>
+    <name>elastic-query-webclient</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -23,36 +23,24 @@
             <artifactId>app-config-data</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.microservices.demo</groupId>
-            <artifactId>elastic-config</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.microservices.demo</groupId>
-            <artifactId>elastic-query-client</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <artifactId>spring-boot-starter-webflux</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-config</artifactId>
         </dependency>
         <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-loadbalancer</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-validation</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-hateoas</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springdoc</groupId>
-            <artifactId>springdoc-openapi-ui</artifactId>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -60,7 +48,11 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-hateoas</artifactId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.thymeleaf.extras</groupId>
+            <artifactId>thymeleaf-extras-springsecurity5</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -80,7 +72,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <image>
-                        <name>${project.groupId}/elastic.query.service:${project.version}</name>
+                        <name>${project.groupId}/elastic.query.web.client:${project.version}</name>
                     </image>
                 </configuration>
                 <executions>

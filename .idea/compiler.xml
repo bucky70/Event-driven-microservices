@@ -17,8 +17,10 @@
         <module name="elstic" />
         <module name="kafka-model" />
         <module name="kafka-consumer" />
+        <module name="elastic-query-webclient" />
         <module name="kafka-producer" />
         <module name="kafka-to-elastic-service" />
+        <module name="discovery-service" />
         <module name="kafka-admin" />
         <module name="config-server" />
         <module name="app-config-data" />
@@ -37,11 +39,13 @@
       <module name="common-config" options="-parameters" />
       <module name="common-util" options="-parameters" />
       <module name="config-server" options="-parameters" />
+      <module name="discovery-service" options="-parameters" />
       <module name="elastic-config" options="-parameters" />
       <module name="elastic-index-client" options="-parameters" />
       <module name="elastic-model" options="-parameters" />
       <module name="elastic-query-client" options="-parameters" />
       <module name="elastic-query-service" options="-parameters" />
+      <module name="elastic-query-webclient" options="-parameters" />
       <module name="elstic" options="-parameters" />
       <module name="kafka" options="-parameters" />
       <module name="kafka-admin" options="-parameters" />
